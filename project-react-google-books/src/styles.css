@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffe4b5; /*moccasin*/
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin: 20px;
+}
+
+.form-control {
+  width: 40%;
+  min-height: 5vh;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 5px 20px rgb(71, 71, 71);
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  background-color: #cd853f;
+  padding: 5px;
+  box-shadow: 0 5px 20px rgb(71, 71, 71);
+}
+
+.btn:focus,
+.form-control {
+  outline: none;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.image-group {
+  width: 33%;
+  margin-top: 30px;
+  text-align: center;
+  display: inline-table;
+}
+
+.style-paragraf {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: red;
+}
